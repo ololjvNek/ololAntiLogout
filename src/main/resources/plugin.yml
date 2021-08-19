@@ -1,0 +1,6 @@
+name: ololAntiLogout
+version: 1.0
+main: pl.ololjvNek.antilogout.Main
+authors:
+  - ololjvNek
+description: Plugin wprowadzajacy antylogout

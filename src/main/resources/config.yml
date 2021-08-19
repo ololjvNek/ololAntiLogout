@@ -1,0 +1,26 @@
+settings:
+  antilogouttime: 30 # w sekundach
+  actionbar:
+    enabled: true
+    message: "&cAntiLogout &8|| &7Jestes podczas walki&4! &6{TIMELEFT} {PROGRESS}"
+  spawnprotection:
+    enabled: false # Wlacz/wylacz zabezpieczenie wejscia na spawn podczas walki (Zasieg spawnu jest zalezny od tego podanego w pliku server.properties !)
+    radius: 50 # Zasieg
+    worlds: # Swiaty na ktorych ma dzialac
+      - 'world'
+  resettime: true # Wlacz/wylacz odswiezanie czasu antylogout'a przy uderzeniu
+  openender: true # Wlacz/wylacz mozliwosc otwierania enderchesta podczas walki
+  blockedcmds:
+    - 'spawn'
+    - 'schowek'
+    - 'home'
+    - 'sethome'
+    - 'tpa'
+    - 'tpaccept'
+messages:
+  spawnprotection: "&cNie mozesz wejsc na spawna podczas walki!"
+  blockedcmd: "&cTa komenda jest zablokowana podczas walki!"
+  openender: "&cNie mozesz otworzyc enderchesta podczas walki!"
+  playerdeath:
+    enabled: true
+    message: "&7Gracz &6{KILLER} &7zabil gracza &c{DEATH} &7asystowal &8(&a{ASSISTS}&8)"
